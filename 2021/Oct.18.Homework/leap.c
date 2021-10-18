@@ -9,9 +9,6 @@
 
 int main(void)
 {
-  // printf("Press `Ctrl + C` to exit this program\n\n");
-  // while (1)
-  // {
   printf("Please input a year(range from 1000 to 9999): ");
   int i;
   scanf("%i", &i);
@@ -19,7 +16,6 @@ int main(void)
   if (i < 1000 || i >= 10000)
   {
     printf("Illegal input! Please make sure the range if from 1000 to 9999!\n");
-    // continue;  // 退出 while 循环，但因目前没学到，所以注释
   }
   else
   {
@@ -32,6 +28,5 @@ int main(void)
       printf("No, %d is not the leap year.\n", i);
     }
   }
-  // }
   return 0;
 }
