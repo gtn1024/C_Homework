@@ -3,7 +3,9 @@
 
 int main(void)
 {
-  int n = 10;
+  int n;
+  printf("Input an integer: ");
+  scanf("%i", &n);
 
   printf("Fibonacci: ");
 
