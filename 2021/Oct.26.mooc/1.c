@@ -1,3 +1,4 @@
+// COPYRIGHT: <a href="https://github.com/gtn1024">gtn1024</a>
 #include <stdio.h>
 #include <math.h>
 

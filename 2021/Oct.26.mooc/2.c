@@ -1,3 +1,4 @@
+// COPYRIGHT: <a href="https://github.com/gtn1024">gtn1024</a>
 #include <stdio.h>
 
 int isPrime(int);
@@ -5,7 +6,7 @@ int isPrime(int);
 int main(void)
 {
   int flag = 0;
-  for (int i = 101; i < 1000; i++)
+  for (int i = 100; i < 1000; i++)
   {
     if (isPrime(i))
     {
