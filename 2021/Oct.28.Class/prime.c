@@ -12,6 +12,7 @@ int main(void)
       if (i % j == 0)
       {
         isPrime = 0;
+        break;
       }
     }
 
