@@ -14,7 +14,7 @@ int main(void)
   } while (!((a > 0 && b > 0) && a > b));
 
   // 辗转相除法
-  while (!(a % b == 0))
+  do
   {
     c = a / b;
     d = a % b;
@@ -25,7 +25,7 @@ int main(void)
       flag = 1;
       break;
     }
-  }
+  } while (!(a % b == 0));
 
   printf("Largest common divisor: %i\n", flag ? b : 1);
   return 0;
