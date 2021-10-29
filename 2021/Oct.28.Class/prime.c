@@ -24,7 +24,6 @@ int main(void)
 
 int isPrime(int i)
 {
-  int flag = 0;
   for (int j = 2; j < i / 2 + 1; j++)
   {
     if (i % j == 0)
