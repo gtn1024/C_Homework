@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-void printArr(int arr[], int);
 void printMap(int arr[], int);
 
 int main(void)
