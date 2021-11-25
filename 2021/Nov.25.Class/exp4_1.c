@@ -16,12 +16,12 @@ int main(void)
     scanf("%lf", &array[i]);
   }
   printArr(array, sizeof(array) / sizeof(double));
-  printf("Array average: %lf\n", arrAverage(array, sizeof(array) / sizeof(double)));
-  printf("Max element: %lf\n", getMaxElement(array, sizeof(array) / sizeof(double)));
+  printf("Array average: %.2lf\n", arrAverage(array, sizeof(array) / sizeof(double)));
+  printf("Max element: %.2lf\n", getMaxElement(array, sizeof(array) / sizeof(double)));
   double num;
   printf("Input a number to find: ");
   scanf("%lf", &num);
-  printf("is found: %s\n", findElement(array, sizeof(array) / sizeof(double), num) ? "true" : "false");
+  printf("is %.2lf found: %s\n", num, findElement(array, sizeof(array) / sizeof(double), num) ? "true" : "false");
   sortArr(array, sizeof(array) / sizeof(double));
   printf("Sorted Array: \n");
   printArr(array, sizeof(array) / sizeof(double));
@@ -32,7 +32,7 @@ void printArr(double arr[], int size)
 {
   for (int i = 0; i < size; i++)
   {
-    printf("%lf ", arr[i]);
+    printf("%.2lf ", arr[i]);
   }
   printf("\n");
 }
