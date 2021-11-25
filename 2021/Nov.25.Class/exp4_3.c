@@ -44,7 +44,7 @@ int getSum(int n, int arr[n][n])
   for (int i = 0; i < n; i++)
   {
     sum += arr[i][i];
-    sum += arr[i][4 - i];
+    sum += arr[i][n - 1 - i];
   }
   return sum;
 }
