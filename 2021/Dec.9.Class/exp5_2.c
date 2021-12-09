@@ -4,9 +4,28 @@
 
 #include <stdio.h>
 
+/**
+ * Input data to array.
+ * @param array array to operate.
+ */
 void inputArr(double array[10]);
+
+/**
+ * Output data of array.
+ * @param array array to operate.
+ */
 void outputElementValAndAddr(double array[10]);
+
+/**
+ * Find the maximum and the minimum element and then calculate the average data.
+ * @param array array to operate.
+ */
 void findMaxMinAverageOutput(double array[10]);
+
+/**
+ * Sort the array with SelectionSort.
+ * @param array array to operate.
+ */
 void sortArray(double array[10]);
 
 int main(void) {

@@ -15,8 +15,22 @@ C++
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * Input data to array.
+ * @param array array to operate.
+ */
 void inputStr(char array[10][100]);
+
+/**
+ * Output data of array.
+ * @param array array to operate.
+ */
 void outputStr(char array[10][100]);
+
+/**
+ * Sort array with SelectionSort.
+ * @param array array to operate.
+ */
 void sortStr(char array[10][100]);
 
 int main(void) {
